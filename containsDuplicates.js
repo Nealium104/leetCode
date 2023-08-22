@@ -40,10 +40,10 @@ const containsDuplicate = (nums) => {
 
 ////////////////////////////////////////////////////////////////////
 // What I learned
-// First, I learned that set doens't have a length property, but instead a size property.
+// First, I learned that set doesn't have a length property, but instead a size property.
 // There are some alternative solutions that are good. I personally already knew that set could do this, so I went with that approach.
-// Based on looking at other solutions, I think this is probably the optimal one, but there are some other good options depending
-// on what you need to conserve. Also, this solution is more illustrative of the important concept.
+// Based on looking at other solutions, I think mine is probably the optimal approach, but there are some other good options depending
+// on what you need to conserve (space vs time).
 
 const sortSolution = (nums) => {
   nums.sort((a, b) => a - b);
